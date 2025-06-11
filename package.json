@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/rmyz/search-by-codeowner.git"
   },
+  "bin": {
+    "search-by-codeowner": "index.js" // <--- This is crucial for npx to find your executable
+  },
   "author": "rmyz",
   "main": "index.js",
   "license": "MIT",
