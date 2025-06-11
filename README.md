@@ -4,12 +4,15 @@ This script first retrieves file paths for a given team from your `CODEOWNERS` c
 It then searches all files within those paths for specific text occurrences and returns a list of matching files.
 
 ## How to use
-1. Copy the `search.js` file into the root of your repository.
-2. The script utilizes your `.github/CODEOWNERS` file to retrieve paths associated with a specific team and consults `.gitignore` to exclude unnecessary files during the search.
-3. Run the following command:
+1. Run the command in the root folder of your repository.
 ```zsh
-node search.js "<text>" "<team>"
+npx github:rmyz/search-by-codeowner "searchTerm" "@team/name"
 ```
+
+## Requirements
+- Make sure your `CODEOWNERS` file is inside `.github` folder.
+- Make sure you have a `.gitignore` file.
+- Make sure the team parameter exists in the `CODEOWNERS` file.
 
 ## Why
 GitHub's native `CODEOWNERS` functionality is powerful for defining code ownership and automating pull request reviews. 
