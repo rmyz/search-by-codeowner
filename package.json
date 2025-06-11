@@ -1,0 +1,13 @@
+{
+  "name": "search-by-codeowner",
+  "description": "For a given team, this script extracts their assigned file paths from CODEOWNERS, searches those files for specific text, and returns a comprehensive list of all matches.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmyz/search-by-codeowner.git"
+  },
+  "author": "rmyz",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "https://github.com/rmyz/search-by-codeowner"
+}
