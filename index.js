@@ -204,6 +204,7 @@ const results = findCodeownersPaths(searchTerm, team);
 if (results.length > 0) {
   console.log(`\n${results.length} Files found:`);
   results.forEach((file) => console.log(`- ${file}`));
+  console.log(`\nFiles path separated by comma: ${results.join(', ')}`);
 } else {
   console.log('\nNo files found matching the criteria.');
 }
