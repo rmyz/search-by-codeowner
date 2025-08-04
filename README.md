@@ -6,7 +6,7 @@ It then searches all files within those paths for specific text occurrences and 
 ## How to use
 1. Run the command in the root folder of your repository.
 ```zsh
-npx rmyz/search-by-codeowner "searchTerm" "@team/name"
+npx github:rmyz/search-by-codeowner "searchTerm" "@team/name"
 ```
 
 ## Requirements
